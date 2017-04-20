@@ -13,6 +13,7 @@ public class HelloWorldActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hello_world_layout);
 
+        //在Android Studio中我们使用Log来打印日志。
         Log.i(TAG,"onCreate");
     }
 }
